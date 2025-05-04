@@ -4,7 +4,7 @@
 
 The aim of this notebook is to use Direct Preference Optimization (DPO) and Low-Rank Adaptation (LoRA) to fine tune a LLM. We use the 'trl' library and the "ultrafeedback_binarized" dataset from Hugging Face to fine tune the model. The dataset uses a completion criteria based on helpfulness and honesty. Therefore, the aim of the fine-tune is to get more 'helpful and honest' responses from the LLM.
 
-##About the data
+## About the data
 
 We use the "ultrafeedback_binarized" data set on Hugging Face, which is a collection of prompts and responses. See https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized, for details.
 
